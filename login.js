@@ -1,7 +1,7 @@
 function login() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
-    var action = "https://script.google.com/macros/s/AKfycbzZALU3GMcXiBHgsHaIr7WzZjKku6HyMxqVwoIcQ6D45mEqSZ7YfnjRPTYov50ejhOMhQ/exec";
+    var action = "https://script.google.com/macros/s/AKfycbzr5Mn9OYXZ8ZT_k_7I_hnE_DjjqAOfwSt3qxI0YoYOlTcC5ZX82RUtlBxXahP5ICQ/exec";
     var xhr = new XMLHttpRequest();
     xhr.open("POST", action, true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
